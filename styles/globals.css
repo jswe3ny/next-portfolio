@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -14,3 +19,55 @@ a {
 * {
   box-sizing: border-box;
 }
+/* Navbar Styles */
+
+.header{
+  display: flex;
+  position: relative;
+  width: 100%;
+  justify-content: space-around;
+  align-items: center;
+  background: #eee;
+  height: 80px;
+  border-bottom: 1px solid rgb(190, 190, 190);
+}
+
+.logo{
+  z-index: 1000;
+}
+
+@media (max-width:768px) {
+  .link-list{
+    z-index: 1;
+    top: 80px;
+    opacity: 0;
+    
+  }
+  
+  .link-list-toggle{
+    z-index: 1;
+    background-color: #eee;
+    top: 80px;
+    opacity: .97;
+    transition: .7s;
+    border-bottom: 1px solid rgb(190, 190, 190);
+  }
+}
+
+
+
+/* .nav-link{
+  height: 100%;
+  padding: 0 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+}*/
+
+.nav-link:hover{
+  background-color: purple;
+  color: yellow;
+} 
+
+ 
