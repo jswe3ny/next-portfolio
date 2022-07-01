@@ -5,7 +5,7 @@ import styles from '../styles/Home.module.css'
 export default function Home() {
   return (
     <div className="mx-auto my-3">
-        <div className='hero bg-slate-200  rounded-md md:grid grid-cols-2 max-w-7xl mx-auto'>
+        <div className='hero bg-pink-200  rounded-md md:grid grid-cols-2 max-w-7xl mx-auto'>
             <div className="hero-text">
               <h2 className="text-5xl p-6"> Hero Text</h2>
               <p className='mx-4 my-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis illo consequatur, voluptates veritatis molestiae eos perferendis incidunt saepe eligendi iusto, quos, natus corporis non veniam! Accusantium necessitatibus perferendis maxime alias? Dolores, pariatur? Soluta dolores at atque odio voluptatibus aperiam sint, autem excepturi, itaque expedita et labore rem accusamus delectus laudantium maiores in similique consequuntur eos. Quas enim repellat necessitatibus.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, tempora facilis! Nulla architecto aperiam iste blanditiis veritatis hic aliquam nemo expedita autem! Sed, hic? Asperiores cupiditate nisi repudiandae inventore iste!</p>
