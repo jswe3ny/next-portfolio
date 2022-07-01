@@ -56,18 +56,17 @@ a {
 
 
 
-/* .nav-link{
+.nav-link{
   height: 100%;
-  padding: 0 20px;
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 1.1rem;
-}*/
+}
 
 .nav-link:hover{
   background-color: purple;
   color: yellow;
+  transition: .3s;
 } 
 
  
