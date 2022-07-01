@@ -12,7 +12,7 @@ export default function Home() {
             </div>
 
             <div className="img-container mx-4 my-0">
-              <Image src={"/../public/hero_img.jpg"}
+              <Image src={"/hero_img.jpg"}
                 width={900}
                 height={900}
                 objectFit={"contain"}
