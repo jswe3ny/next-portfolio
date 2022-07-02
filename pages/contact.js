@@ -4,4 +4,4 @@ export default function contact(){
             <h1 className="underline">Contact</h1>
         </>
     )   
-}
+    }

@@ -69,4 +69,9 @@ a {
   transition: .3s;
 } 
 
+
+.footer{
+  height: 400px;
+  background-color: aqua;
+}
  

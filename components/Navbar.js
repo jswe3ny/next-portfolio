@@ -12,7 +12,7 @@ const Navbar = () => {
         <div className="logo">Logo</div>
         <nav  className= { menu ? "link-list-toggle absolute w-full md:top-0 md:relative md:flex md:w-auto md:h-full md:align-middle md:transition-none": "link-list absolute w-full md:top-0 md:relative md:flex md:w-auto md:h-full md:align-middle md:transition-none md:justify-center"}>
           <Link href={"/"}>
-            <a className="nav-link block text-lg py-3 text-center px-4">Home</a>
+            <a className="nav-link block text-lg py-3 text-center px-4 hover:bg-pink-200 hover:text-emerald-400">Home</a>
           </Link>
           <Link href={"/contact"}>
             <a className="nav-link block text-lg py-3 text-center px-4">Contact</a>

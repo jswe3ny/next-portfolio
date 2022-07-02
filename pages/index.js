@@ -1,14 +1,41 @@
 
 import Image from 'next/image'
+import { useState } from 'react'
+import {useForm} from '@formspree/react';
 import styles from '../styles/Home.module.css'
 
+import ContactForm from '../components/ContactForm';
+
 export default function Home() {
+  // const [email, setEmail] = useState("");
+  // const [comments, setComments] = useState("");
+
+  // const handleChange = (e) => {
+  //   // console.log(e.target.value)
+  //   // console.log(e.target.name)
+  //   if(e.target.name == "email") {
+  //     setEmail(e.target.value)
+  //   } else{
+  //     setComments(e.target.value);
+  //   }
+  //   // console.log(email)
+  //   // console.log(comments)
+  // }
+
+  // const submit = (e) => {
+  //   e.preventDefault();
+
+  //   console.log(": " + email + " :" + comments + 'have been submited');
+  //   setEmail("");
+  //   setComments("");
+  // }
+
   return (
     <div className="mx-auto my-3">
         <div className='hero bg-pink-200  rounded-md md:grid grid-cols-2 max-w-7xl mx-auto'>
-            <div className="hero-text">
+            <div className="hero-text mb-0">
               <h2 className="text-5xl p-6"> Hero Text</h2>
-              <p className='mx-4 my-8'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis illo consequatur, voluptates veritatis molestiae eos perferendis incidunt saepe eligendi iusto, quos, natus corporis non veniam! Accusantium necessitatibus perferendis maxime alias? Dolores, pariatur? Soluta dolores at atque odio voluptatibus aperiam sint, autem excepturi, itaque expedita et labore rem accusamus delectus laudantium maiores in similique consequuntur eos. Quas enim repellat necessitatibus.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, tempora facilis! Nulla architecto aperiam iste blanditiis veritatis hic aliquam nemo expedita autem! Sed, hic? Asperiores cupiditate nisi repudiandae inventore iste!</p>
+              <p className='mx-4 mt-0'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eaque nobis illo consequatur, voluptates veritatis molestiae eos perferendis incidunt saepe eligendi iusto, quos, natus corporis non veniam! Accusantium necessitatibus perferendis maxime alias? Dolores, pariatur? Soluta dolores at atque odio voluptatibus aperiam sint, autem excepturi, itaque expedita et labore rem accusamus delectus laudantium maiores in similique consequuntur eos. Quas enim repellat necessitatibus.  Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto, tempora facilis! Nulla architecto aperiam iste blanditiis veritatis hic aliquam nemo expedita autem! Sed, hic? Asperiores cupiditate nisi repudiandae inventore iste!</p>
             </div>
 
             <div className="img-container mx-4 my-0">
@@ -41,22 +68,25 @@ export default function Home() {
 
         {/* Contact Section */}
         <h2 className='text-center text-4xl text-rose-400 my-6'>Contact</h2>
-        <div className=" bg-blue-100  mx-auto  max-w-7xl rounded-md mb-80">
+        {/* <form className=" bg-blue-100  mx-auto  max-w-7xl rounded-md">
             <h3 className='text-2xl text-center py-3'>Get in Touch!</h3>
             <div className='max-w-3xl  md:mx-auto'>
               <div className='ml-3'>
                 <label className='block text-sm ml-2 text-gray-700 font-bold'>Email: </label>
-                <input type="email" placeholder='email' className='px-4 py-2 outline-none rounded-md' />
+                <input type="email" name='email' value={email} onChange={handleChange}  placeholder='email' className='px-4 py-2 outline-none rounded-md' />
               </div>
               
 
               <div className="mx-3">
                       <label className="block ml-2 text-sm pt-2 text-gray-700 font-bold">Comments:</label>
-                      <textarea  id="" rows="10" placeholder="What are you looking for?" className=" resize-none max-h-50 w-full max-w-3xl mx-auto my-2 px-2 py-3 outline-green-200 rounded-xl"></textarea>
+                      <textarea  id="" rows="10" name='comments' value={comments} onChange={handleChange} placeholder="What are you looking for?" className=" resize-none max-h-50 w-full max-w-3xl mx-auto my-2 px-2 py-3 outline-green-200 rounded-xl"></textarea>
               </div>
-            </div>
-            
-        </div>
+              <button onClick={submit}>
+                  clickMe
+              </button>
+            </div> 
+        </form> */}
+        <ContactForm />
     </div>
 
   
