@@ -23,13 +23,16 @@ a {
 
 .header{
   display: flex;
-  position: relative;
+  /* position: sticky;
+  top: 0;
+  z-index: 50; */
+  /* opacity: .95; */
   width: 100%;
   justify-content: space-around;
   align-items: center;
-  background: #eee;
+  /* background: #eee; */
   height: 80px;
-  border-bottom: 1px solid rgb(190, 190, 190);
+  border-bottom: 1px solid rgb(224, 224, 224);
 }
 
 .logo{
@@ -46,9 +49,9 @@ a {
   
   .link-list-toggle{
     z-index: 1;
-    background-color: #eee;
+    /* background-color: #eee; */
     top: 80px;
-    opacity: .97;
+    /* opacity: .97; */
     transition: .7s;
     border-bottom: 1px solid rgb(190, 190, 190);
   }
@@ -68,6 +71,7 @@ a {
   color: yellow;
   transition: .3s;
 } 
+
 
 
 .footer{
