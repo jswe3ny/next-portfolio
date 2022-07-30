@@ -43,7 +43,7 @@ export default function projects(){
                     </div>
                     <div className="flex items-center mt-auto mb-4">
                         <button className="mx-auto px-5 py-2 rounded-md border-2 border-rose-400 text-gray-800 font-bold tracking-wide  hover:bg-rose-600 hover:text-gray-50 transition duration-300">
-                            <a target="_blank" rel="noreferrer" href="https://graceful-kheer-fb2b50.netlify.app/">Visit Site</a>
+                            <a target="_blank" rel="noreferrer" href="https://next-portfolio-pink-iota.vercel.app/">Visit Site</a>
                         </button>
                         <a className="absolute" target="_blank" rel="noreferrer" href="https://github.com/crankypirat3/Next-js-smash-app">
                             <AiOutlineGithub className='h-6 w-6 text-rose-400 cursor-pointer mx-4 ' />
