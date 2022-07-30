@@ -26,7 +26,8 @@ const ContactForm = () => {
     };
 
     return(
-        <form onSubmit={submit} className=" bg-primary mx-3 md:mx-auto  max-w-xl rounded-lg  shadow-2xl ">
+      <div className='mx-2'>
+          <form onSubmit={submit} className=" bg-primary mx-auto  max-w-xl rounded-lg  shadow-2xl ">
             <h3 className='text-2xl text-center py-3 text-gray-50 font-extrabold tracking-wider'>Get in Touch!</h3>
             <div className='max-w-3xl  md:mx-auto'>
               <div className='ml-3'>
@@ -46,6 +47,7 @@ const ContactForm = () => {
               
             </div> 
         </form>
+      </div>
     )
 }
 
