@@ -17,10 +17,10 @@ export default function Home() {
 
   return (
     <div className="mx-auto my-3 bg-gray-50">
-        <div className='  bg-gray-200 py-1 max-w-6xl  rounded-2xl md:grid grid-cols-2 mx-auto md:py-0 '>
+        <div className=' py-1 max-w-6xl  rounded-2xl md:grid grid-cols-2 mx-auto md:py-0 '>
             <div className="hero-text flex flex-col mb-0">
-              <h2 className="text-5xl text-center px-6 py-4 text-rose-400 font-semibold md:text-left md:ml-5">Jack Sweeny</h2>
-              <p className=' mx-4 mt-0 pl-4 text-gray-800 md:mb-auto'>I am a university student who is also a self taught web developer. I am passionate about writing software, traveling, learning new things. I am proficient with HTML, CSS, and Javascript. I primarily work with CMSs such as Sanity, BaaS providers such as Firebase, and Next JS to create dynamic websites. I am also able to create mobile-first websites and landing pages with Tailwind CSS and Bootstrap</p>
+              <h2 className="text-5xl text-center px-6 pb-6 text-rose-400 font-semibold md:text-left md:ml-5 md:pb-8 md:pt-2">Jack Sweeny</h2>
+              <p className=' mx-4 mt-0 pl-4 text-gray-800 md:mb-auto md:pl-8'>I am a university student who is also a self taught web developer. I am passionate about writing software, traveling, learning new things. I am proficient with HTML, CSS, and Javascript. I primarily work with CMSs such as Sanity, BaaS providers such as Firebase, and Next JS to create dynamic websites. I am also able to create mobile-first websites and landing pages with Tailwind CSS and Bootstrap</p>
               <button onClick={scroll} className='shadow-2xl mx-auto mt-20 mb-10 text-2xl font-bold text-gray-50 py-2 px-8 rounded-3xl bg-rose-400 md:mb-20 hover:bg-rose-500 hover:text-white'>
                 Get In Touch
               </button>
