@@ -39,7 +39,7 @@ export default function Home() {
 
         </div>
         
-        <h2 className='text-center text-4xl text-rose-400 my-6'>Primary Tech Stack</h2>
+        <h2 className='text-center text-4xl text-rose-400 tracking-wide my-6'>Primary Tech Stack</h2>
         <div className="max-w-6xl flex-col items-center md:grid md:grid-cols-3 md:justify-items-center mx-auto gap-x-4 my-4">
           <div className="card shadow-2xl bg-gray-50 mx-auto w-80 my-4 border-2 rounded-2xl md:w-auto md:mx-4 md:my-0 h-96 lg:w-72">
             <h3 className='text-3xl text-primary my-3 font-semibold text-center'>Javascript</h3>
@@ -67,7 +67,7 @@ export default function Home() {
         </div>
 
         {/* Skills Section */}
-        <h2 className='text-center text-4xl text-rose-400 my-6'>Skills</h2>
+        <h2 className='text-center text-4xl text-rose-400 tracking-wide my-6'>Skills</h2>
         <div className='grid grid-cols-12 border  shadow-2xl  border-primary content-center max-w-sm mx-auto rounded-lg'>
           <div className='flex ml-1 col-span-6   h-10  px-3'>
             <AiOutlineCheckCircle className='h-5 w-5 text-primary mx-1 my-auto' />
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
         
         {/* Contact Section */}
-        <h2  ref={firstRef} className='text-center text-4xl text-rose-400 my-6'>Contact</h2>
+        <h2  ref={firstRef} className='text-center text-4xl text-rose-400 tracking-wide my-6'>Get In Touch!</h2>
        
         <ContactForm />
     </div>
